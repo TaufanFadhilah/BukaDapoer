@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="stonefruit.bukadapoer.Drawer"
+    tools:showIn="@layout/app_bar_drawer"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/header"
+        />
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:rowCount="2"
+        android:orientation="horizontal"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="10dp">
+        <ImageView
+            android:src="@drawable/makanan_pembuka"
+            android:layout_width="125dp"
+            android:layout_height="150dp"
+            android:layout_marginRight="20dp"
+            />
+
+        <ImageView
+            android:src="@drawable/makanan_utama"
+            android:layout_width="125dp"
+            android:layout_height="150dp"
+            />
+
+        <ImageView
+            android:src="@drawable/minuman"
+            android:layout_width="125dp"
+            android:layout_height="150dp"
+            android:layout_marginRight="20dp"
+            />
+
+        <ImageView
+            android:src="@drawable/makanan_penutup"
+            android:layout_width="125dp"
+            android:layout_height="150dp"
+            />
+    </GridLayout>
+
+</LinearLayout>
